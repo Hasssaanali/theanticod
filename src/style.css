@@ -391,3 +391,77 @@ p{
     text-decoration: underline;
     transition: all 300ms ease-in-out;
 }
+
+
+/* about page */
+
+
+.abtbanner{
+    background-image: url('./img/globalbanner.jpg');
+    padding: 160px 0;
+    text-align: center;
+}
+.abtbanner h2{
+    font-size: 58px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+    color: #eee;
+}
+.abtbanner p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px !important;
+    line-height: 28px;
+    color: #eee;
+}
+.counter{
+    text-align: center;
+}
+.counter div {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: rgba(1, 1, 1, 0.042);
+    color: #B9C7D9;
+}
+.worksec{
+    padding: 80px;
+}
+.worksec .worktext{
+    text-align: center;
+}
+.worksec h2{
+    font-size: 58px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+    color: #000;
+}
+.workwithus h4{
+    font-size: 28px;
+    background: rgba(1, 1, 1, 0.042);
+    color: #B9C7D9;
+    padding: 20px;
+    text-align: center;
+}
+.workwithus p {
+    height: 380px;
+}
+.growth img{
+    width: 100%;
+}
+.growth{
+    padding: 0 !important;
+}
+.growth p{
+    height: 230px;
+    padding: 10px;
+}
+.growth h4{
+    padding-bottom: 10px;
+    background: rgba(1, 1, 1, 0.042);
+    color: #B9C7D9;
+    padding: 20px;
+    text-align: center;
+}
+.growth .col-sm-12{
+    padding: 0;
+}

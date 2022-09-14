@@ -130,3 +130,54 @@ export const articles = [
     excerpt:"Are you getting into marketing activities for your business? Is your budget limited? If you are a small business working off a small marketing budget."
     },
 ]
+
+
+export const workwithus = [
+    {
+    key:"19",
+    heading:"Transparency",
+    text:"For a digital agency, it is important to be transparent. This is what we strive to be from the very first day. From the initial assessment call to final execution, THE ANTICOD uses productivity tools to ensure 100% clarity on what needs to be done and what needs to be achieved. Without transparency, failure becomes certain. With transparency, success becomes a benchmark.",
+    },
+    {
+    key:"20",
+    heading:"Commitment Driven",
+    text:"THE ANTICOD loves success. However, we do not like to be reckless. Success only comes to those who understand their responsibilities. While onboarding a client, we ensure that we can deliver success–and nothing less.THE ANTICOD only accepts challenges where we can be certain of achieving favorable outcomes for our clients. Simply put, we love to deliver the results that you can be proud of We are committed to delivering only quality services; everything we do justifies just this.",
+    },
+    {
+    key:"21",
+    heading:"Collaborative Effort",
+    text:"For a digital agency, collaboration is its bread-and-butter. By working together with our clients, we paved the way for true glory and lasting prosperity. THE ANTICOD is made up of experienced individuals who are experts in their respect fields. From the very beginning, we will work together with you and create a win-win situation by listening to your feedback and providing suitable recommendations for your business.",
+    },
+    {
+    key:"22",
+    heading:"Professional Team",
+    text:"Certified Team; A certified team of professionals work dedicatedly to each project to ensure quality and excellence.Happy People; We love to spread smiles your satisfaction is our epitome and having a happy client makes us even happier.",
+    },
+    {
+    key:"23",
+    heading:"Strategic Approach",
+    text:"Scalable Results: You investment calls for evident results, and we expertise in making every penny count.Strategy Makers; The brains behind our services make strategies based on your business objectives. Creative Approach; We keep a creative approach with each project to make you win every client, every time. ",
+    },
+            
+]
+
+export const growth = [
+    {
+    key:"24",
+    heading:"Free Consultation & Audit",
+    text:"Schedule to speak with one of our experts to discuss your project in detail and we will guide you with a solution, pricing plan and project plan that best suits your brand needs.",
+    image:"../img/audit.jpg",
+    },
+    {
+    key:"25",
+    heading:"Creative Brief & Discovery Call",
+    text:"Our dedicated project manager will share online questionnaire forms which will hardly take 4-5 minutes to fill online and let us know about your project specifics that will cover all the technical and aesthetic needs of the project. That’s all we will need from your end to start the research and to kickstart the project.",
+    image:"../img/creative.jpg",
+    },
+    {
+    key:"26",
+    heading:"Initial Designs & Delivery",
+    text:"Schedule to speak with one of our experts to discuss your project in detail and we will guide you with a solution, pricing plan and project plan that best suits your brand needs.",
+    image:"../img/delivery.jpg",
+    },       
+]

@@ -1,14 +1,10 @@
 import "./style.css"
 import React, { Fragment, useState, useEffect } from 'react';
-import Header from "./Components/Header";
-import Banner from "./Components/Banner";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Whoweare from "./Components/Whoweare";
-import Servicesslide from "./Components/Servicesslide";
-import Reviews from "./Components/Reviews";
-import Articles from "./Components/Articles";
-import Footer from "./Components/Footer";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+
 
 function App() {
   useEffect(() => {
@@ -16,15 +12,9 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <Fragment>
-
-     <Header/>
-     <Banner/>
-     <Whoweare/>
-     <Servicesslide/>
-     <Reviews/>
-     <Articles/>
-     <Footer/>
+    <Fragment>   
+     {/* <Home/> */}
+     <About/>
     </Fragment>
   );
 }
