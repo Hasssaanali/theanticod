@@ -4,6 +4,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Header from "./Components/Header";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom"
 
 
 function App() {
@@ -12,9 +18,15 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <Fragment>   
-     {/* <Home/> */}
-     <About/>
+
+    <Fragment>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </Fragment>
   );
 }

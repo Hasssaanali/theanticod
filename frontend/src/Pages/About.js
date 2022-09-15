@@ -9,7 +9,7 @@ import Workwithus from '../Components/Workwithus';
 export default function About() {
   return (
     <Fragment>
-    <Header/>
+    {/* <Header/> */}
     <Aboutbanner/>
     <Aboutexpert/>
     <Workwithus/>
