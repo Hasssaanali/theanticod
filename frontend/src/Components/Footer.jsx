@@ -1,7 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react'
 import Typewriter from 'typewriter-effect';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function Footer() {
   return (
