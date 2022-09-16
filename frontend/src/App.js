@@ -4,12 +4,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Contactus from "./Pages/Contactus";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom"
+import Articlebanner from "./Components/Articlebanner";
 
 
 function App() {
@@ -25,7 +28,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="articles" element={<Articlebanner />} />
+          <Route path="contactus" element={<Contactus />} />
+
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </Fragment>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react'
 import Typewriter from 'typewriter-effect';
+import { Link } from "react-router-dom"
 
 
 export default function Footer() {
@@ -24,7 +25,7 @@ export default function Footer() {
                         <div className='col-sm-4 logobar1'>
                             <a href='' className='myfooterlogo'>{  <Typewriter options={{  strings: ['Quick Links'],  autoStart: true,  loop: true,  }} /> }</a>
                             <ul>
-                                <li><i class="fa fa-bullseye"></i>About Us</li>
+                            <Link to="about"><li><i class="fa fa-bullseye"></i>About Us</li></Link>
                                 <li><i class="fa fa-bullseye"></i>Web Development</li>
                                 <li><i class="fa fa-bullseye"></i>UI/UX Design</li>
                                 <li><i class="fa fa-bullseye"></i>Social Media Marketing</li>

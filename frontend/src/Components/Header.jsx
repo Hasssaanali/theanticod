@@ -21,8 +21,8 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Link to="about">About Us</Link>
+              <Link to="articles">Articles</Link>
 
-              <Nav.Link href="#link">Articles</Nav.Link>
               <NavDropdown title="Services" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">UI/UX Design </NavDropdown.Item>
@@ -30,7 +30,7 @@ export default function Header() {
                 <NavDropdown.Item href="#action/3.4">SEO Optimisation</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.5">Video Animation</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#link">Contact Us</Nav.Link>
+              <Link to="contactus">Contact Us</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
