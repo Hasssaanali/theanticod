@@ -21,11 +21,11 @@ export default function Articles() {
                                 return (
 
                                     <div className="col-sm-4 article" key={data.key}>
-                                        <img src={data.feature} alt="article" />
+                                        <img src={data.feature} alt="article" className='articlebg'/>
                                         <img src={data.avatar} alt="testimonials" className="avatar" />
                                         <h4>{data.heading}</h4>
                                         <p>{data.excerpt}</p>
-                                        <a href="" className='white-btn'>Check It Out</a>
+                                        <span href="" className='white-btn'>Check It Out</span>
                                     </div>
 
                                 )

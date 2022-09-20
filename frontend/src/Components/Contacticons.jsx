@@ -1,31 +1,33 @@
 import React, { Fragment } from 'react'
+import { Link ,useNavigate} from "react-router-dom"
 
 export default function Contacticons() {
+
   return (
     <Fragment>
         <div className='container contacticons'>
             <div className='row'>
                 <div className='col-sm-4'>
                 <div data-aos="fade-left" data-aos-duration="2000">
-                <i class="fa fa-mobile"></i>
+                <i className="fa fa-mobile"></i>
                 <p>Call us Now</p>
-                <p><a href='tel:+923022049921'>+92 302 2049921</a></p>
+                <p>+92 302 2049921</p>
                 </div>
                 </div>
 
                 <div className='col-sm-4'>
                 <div data-aos="fade-down" data-aos-duration="2000">
-                <i class="fa fa-envelope"></i>
+                <i className="fa fa-envelope"></i>
                 <p>Mail Us</p>
-                <p><a href='mailto:Info@theanticod.com'>Info@theanticod.com</a></p>
+                <p onClick={()=> window.open("mailto:Info@theanticod.com")}>Info@theanticod.com</p>
                 </div>
                 </div>
 
                 <div className='col-sm-4' >
                 <div data-aos="fade-right" data-aos-duration="2000">
-                <i class="fa fa-whatsapp"></i>
+                <i className="fa fa-whatsapp"></i>
                 <p>Instant Chat ?</p>
-                <p><a href='https://wa.me/+923022049921' target="_blank">Whatsapp us</a></p>
+                <p onClick={()=> window.open("https://api.whatsapp.com/send?phone=", "_blank")}>Whatsapp</p>
                 </div>
                 </div>
             </div>

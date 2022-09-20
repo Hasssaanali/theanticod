@@ -34,6 +34,7 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
+     
     </Fragment>
   );
 }

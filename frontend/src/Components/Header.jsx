@@ -14,9 +14,9 @@ export default function Header() {
       <Navbar expand="lg">
         <Container>
 
-          <Link to='/'><Navbar.Brand href="#home" className='logo'><img src="../img/logo3.png" />
+          <Link to='/' className='logo'><img src="../img/logo3.png" />
             {<Typewriter options={{ strings: ['The Anticod'], autoStart: true, loop: true, }} />}
-          </Navbar.Brand></Link>
+         </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
@@ -24,11 +24,11 @@ export default function Header() {
               <Link to="articles">Articles</Link>
 
               <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">UI/UX Design </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Social Media Marketing</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">SEO Optimisation</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.5">Video Animation</NavDropdown.Item>
+                <NavDropdown.Item >Web Development</NavDropdown.Item>
+                <NavDropdown.Item >UI/UX Design </NavDropdown.Item>
+                <NavDropdown.Item >Social Media Marketing</NavDropdown.Item>
+                <NavDropdown.Item >SEO Optimisation</NavDropdown.Item>
+                <NavDropdown.Item >Video Animation</NavDropdown.Item>
               </NavDropdown>
               <Link to="contactus">Contact Us</Link>
             </Nav>

@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { growth, workwithus } from "../Data/Data";
 
+
 export default function Workwithus() {
     return (
         <Fragment>
@@ -18,9 +19,9 @@ export default function Workwithus() {
 
                     <div className='col-sm-12' data-aos="fade-left" data-aos-duration="2000">
                         <Swiper loop={false} slidesPerView={3} spaceBetween={60} centeredSlides={false} autoplay={{ delay: 2500, pauseOnMouseEnter: true, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[Autoplay, Pagination, Navigation]} className="mySwiper" >
-                            {workwithus.map((data, index) => {
+                            {workwithus.map((data) => {
                                 return (
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide key={data.key}>
                                         <div className="row testimonial workwithus">
                                             <div className="col-sm-12">
                                                 <p>{data.text}</p>
@@ -54,9 +55,9 @@ export default function Workwithus() {
 
                     <div className='col-sm-12' data-aos="fade-left" data-aos-duration="2000">
                         <Swiper loop={false} slidesPerView={3} spaceBetween={60} centeredSlides={false} autoplay={{ delay: 2500, pauseOnMouseEnter: true, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[Autoplay, Pagination, Navigation]} className="mySwiper" >
-                            {growth.map((data, index) => {
+                            {growth.map((data) => {
                                 return (
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide key={data.key}>
                                         <div className="row testimonial growth">
                                             <div className="col-sm-12">
                                                 <img src={data.image} alt='audit' />

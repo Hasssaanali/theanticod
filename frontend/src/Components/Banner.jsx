@@ -16,7 +16,7 @@ return (
         <Carousel.Caption>
           <h3>{data.heading}</h3>
           <p>{data.text}</p>
-          <a className='banner-btn' href='#'>Check It Out</a>
+          <span className='banner-btn'>Check It Out</span>
         </Carousel.Caption>
       </Carousel.Item>
 )

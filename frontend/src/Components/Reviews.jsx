@@ -20,9 +20,9 @@ export default function Reviews() {
                 <div className='col-sm-12' data-aos="fade-left"  data-aos-duration="2000">
                     
                     <Swiper loop={true} slidesPerView={3} spaceBetween={60}  centeredSlides={false}  autoplay={{ delay: 2500, pauseOnMouseEnter: true,  disableOnInteraction: false,  }} pagination={{  clickable: true, }} navigation={true}  modules={[Autoplay, Pagination, Navigation]}  className="mySwiper" >
-                        {reviews.map((data, index) => {
+                        {reviews.map((data) => {
                         return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={data.key}>
                                     <div className="row testimonial">
                                         <div className="col-sm-5">
                                             <img src={data.image} alt="testimonials" className="avatar"/>

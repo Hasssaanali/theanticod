@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 import { Fragment } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contactmap() {
-
     const [data, setdata] = useState(
         {
             name: '',
@@ -24,11 +25,18 @@ export default function Contactmap() {
     }
 
     const SubmitDATA = (e) => {
+       if( data.email === ''){
+        toast("Bherwe sab detail dal !");
+       }
+       else{
         e.preventDefault();
         console.log(data)
+       }
+        
     }
   return (
     <Fragment>
+      
         <div className='container contactform'>
             <div className='row'>
                 <div className='col-sm-6' data-aos="fade-right" data-aos-duration="2000">
@@ -53,7 +61,7 @@ export default function Contactmap() {
                             </div>
                             <div className="form-group col-md-12">
                                 <select name='options' id="inputState" className="form-control"  onChange={handlechange}>
-                                    <option selected>Choose...</option>
+                                    <option defaultValue='Chose'>Choose...</option>
                                     <option value="Web Development">Web Development</option>
                                     <option value="UI/UX Design">UI/UX Design</option>
                                     <option value="Social Media Marketing">Social Media Marketing</option>
@@ -66,6 +74,8 @@ export default function Contactmap() {
                             </div>
                             
                             <button onClick={SubmitDATA}>Send Now</button>
+                            <ToastContainer/>
+
                         </form>
                 </div>
 
@@ -74,5 +84,6 @@ export default function Contactmap() {
             </div>
         </div>
     </Fragment>
+    
   )
 }

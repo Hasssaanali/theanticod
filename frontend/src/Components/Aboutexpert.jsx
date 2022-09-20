@@ -12,10 +12,10 @@ export default function Aboutexpert() {
                     <p>Founded in 2020 by Successful Entrepreneurs, THE ANTICOD has grown from a set of Business Consultants to a one stop solution for all your online business needs.</p>
                     <div className='row'>
                         <div className='col-sm-6 counter'>
-                        <NumberWidgetCounter key={'111'} number={62} useClass={''} timeMs={6000}/><p><b>%</b> Annual Retention Success Ratio</p>
+                        <NumberWidgetCounter key={'111'} number={62} useclassName={''} timeMs={6000}/><p><b>%</b> Annual Retention Success Ratio</p>
                         </div>
                         <div className='col-sm-6 counter'>
-                        <NumberWidgetCounter key={'222'} number={32} useClass={''} timeMs={6000} /><p>Active Clients & Projects</p>
+                        <NumberWidgetCounter key={'222'} number={32} useclassName={''} timeMs={6000} /><p>Active Clients & Projects</p>
                         </div>
                     </div>
                 </div>

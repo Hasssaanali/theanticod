@@ -5,6 +5,7 @@
     background: -webkit-linear-gradient(60deg, #9fb4cf, #eee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: flex;
 }
 .ml-auto {
     margin-left: auto !important;
@@ -13,7 +14,7 @@
     text-decoration: unset;
 }
 nav {
-    padding: 30px 0;
+    padding: 30px 0 !important; 
     background: transparent ;
     box-shadow: rgba(100, 100, 111, 0.083) 0px 7px 29px 0px;
     position: absolute !important;
@@ -84,6 +85,7 @@ p{
     background-color: #9fb4cf;
     border-color: #9fb4cf;
     transition: all 300ms ease-in-out;
+    cursor: pointer;
 }
 .carousel-item:before {
     content: "";
@@ -117,10 +119,12 @@ p{
     text-decoration: unset;
     padding: 10px 15px;
     display: block;
-    width: 32%;
+    width: 90%;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
     margin-left: 3px;
+    margin: auto;
     transition: all 300ms ease-in-out;
     border-radius: 20px 5px 20px 5px;
     font-weight: 600;
@@ -163,7 +167,7 @@ p{
     font-weight: 400 !important;
     color: #fff;
 }
-.slides a{
+.slides span{
     border-color: #fff !important;
     color: #fff !important;
     opacity: 0;
@@ -194,7 +198,7 @@ p{
     transition: all 500ms ease-in-out;
     cursor: pointer;
 }
-.slides:hover a{
+.slides:hover span{
     opacity: 1;
     transition: all 300ms ease-in-out;
 }
@@ -498,7 +502,6 @@ p{
     margin-bottom: 0px;
 }
 .contacticons a{
-    font-size: 18px !important;
     padding-bottom: 15px;
     text-transform: capitalize !important;
     color: #000;
@@ -569,4 +572,26 @@ form button:hover{
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 20px;
+}
+.article .articlebg {
+    width: 100%;
+    margin-bottom: 0px;
+    height: 260px;
+}
+.article span{
+    display: block !important;
+}
+.contact {
+    display: flex;
+    align-items: baseline;
+}
+.contact p{
+    margin: 5px !important;
+}
+
+.contact p:hover{
+   cursor: pointer;
+}
+a {
+    text-decoration: unset !important;
 }
