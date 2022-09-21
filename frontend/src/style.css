@@ -592,6 +592,95 @@ form button:hover{
 .contact p:hover{
    cursor: pointer;
 }
+/* tabs service */
+.react-tabs__tab {
+    background: transparent;
+    border-color: transparent !important;
+    padding: 20px 60px !important;
+}
+ul.react-tabs__tab-list{
+    text-align: center;
+    border: unset ;
+}
+.react-tabs__tab img{
+    filter: grayscale(100%);
+}
+.react-tabs__tab--selected img{
+    filter: grayscale(0%) !important;
+    transition: all 200ms ease-in-out;
+}
+/* service components */
+.servicecomponents .react-tabs__tab {
+    background: transparent;
+    border-color: transparent !important;
+    padding: 10px 40px !important;
+
+}
+.servicecomponents ul{
+    margin-bottom: 80px;
+}
+.servicecomponents h2{
+    font-size: 22px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+}
+.servicecomponents .react-tabs__tab--selected{
+    background-color: #1E2A34;
+    transition: all 300ms ease-in-out;
+}
+.servicecomponents .react-tabs__tab--selected h2{
+    color: #eee;
+    transition: all 300ms ease-in-out;
+}
+.servicecomponents {
+    padding-top: 100px;
+}
+.portfolio img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio span{
+    opacity: 0;
+    position: relative;
+    top: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.538);
+    height: 100%;
+    width: 100%;
+    color: #eee;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    transition: all 300ms ease-in-out;
+    text-transform: capitalize;
+
+}
+.portfolio .col-sm-3{
+    margin-bottom: 20px;
+}
+.portfolio .col-sm-3:hover span{
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
+.text-center h2{
+    font-size: 48px !important;
+    padding-bottom: 60px;
+}
+
+
 a {
     text-decoration: unset !important;
 }
+.aboutsec .white-btn{
+    width: 40% !important;
+    margin-left: 0 !important;
+}
+.aboutsec .white-btn:hover{
+    cursor: pointer;
+}
+html{
+    overflow-x: hidden;
+}
+

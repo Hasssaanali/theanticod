@@ -22,14 +22,15 @@ export default function Header() {
             <Nav className="ml-auto">
               <Link to="about">About Us</Link>
               <Link to="articles">Articles</Link>
+              <Link to="services">Services</Link>
 
-              <NavDropdown title="Services" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Services" id="basic-nav-dropdown">
                 <NavDropdown.Item >Web Development</NavDropdown.Item>
                 <NavDropdown.Item >UI/UX Design </NavDropdown.Item>
                 <NavDropdown.Item >Social Media Marketing</NavDropdown.Item>
                 <NavDropdown.Item >SEO Optimisation</NavDropdown.Item>
                 <NavDropdown.Item >Video Animation</NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               <Link to="contactus">Contact Us</Link>
             </Nav>
           </Navbar.Collapse>

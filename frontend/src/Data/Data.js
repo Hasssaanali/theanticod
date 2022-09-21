@@ -181,3 +181,225 @@ export const growth = [
     image:"../img/delivery.jpg",
     },       
 ]
+
+
+// services portflio
+
+export const wordpress =[
+
+    {
+    link:'https://mckibookkeeping.com/',
+    name:'mckibookkeeping',
+    image:'../img/mcki.PNG'
+    },
+    {
+    link:'https://www.twooffshore.com/',
+    name:'twooffshore',
+    image:'../img/offshore.PNG'
+    },
+    {
+    link:'https://www.fish-nation.com/',
+    name:'fish-nation',
+    image:'../img/fish.PNG'
+    },
+    {
+    link:'https://raindance.ac.uk/dubai/',
+    name:'raindance',
+    image:'../img/rain.PNG'
+    },
+   {
+    link:'https://www.myopiamalaysia.com/',
+    name:'MAMP',
+    image:'../img/mamp.PNG'
+    },
+    {
+    link:'https://www.hunt-nation.com/',
+    name:'Hunt-Nation',
+    image:'../img/hunt.PNG'
+    },
+    {
+    link:'https://khasabtours.com/',
+    name:'khasabtours',
+    image:'../img/khasabtours.PNG'
+    },
+    {
+    link:'https://www.tapalvoip.com/',
+    name:'Tapal Infosys',
+    image:'../img/tapal.PNG'
+    },
+    {
+    link:'https://www.duitpos.com/',
+    name:'duitpos',
+    image:'../img/duit.PNG'
+    },
+    {
+    link:'https://carbodyworx.com/',
+    name:'carbodyworx',
+    image:'../img/carbodyworx.png'
+    },
+]
+
+export const shopify =[
+
+    {
+    link:'https://naturesflairfoods.com/',
+    name:'Natural Foods',
+    image:'../img/nature.PNG'
+    },
+    {
+    link:'https://www.realfruitwater.com/',
+    name:'real fruit water',
+    image:'../img/real.PNG'
+    },
+    {
+    link:'https://www.terrademode.com/',
+    name:'terrademode',
+    image:'../img/terra.PNG'
+    },
+    {
+    link:'https://www.thelumiereco.com/',
+    name:'lumier',
+    image:'../img/lumier.PNG'
+    },
+   {
+    link:'https://www.adorn512.com/',
+    name:'adorn Jewelry',
+    image:'../img/addron.PNG'
+    },
+    {
+    link:'https://revolutionbeauty.pk/',
+    name:'revolution beauty',
+    image:'../img/revolution.PNG'
+    },
+]
+
+export const wix =[
+
+    {
+    link:'https://www.mykafluri.com/',
+    name:'mykafluri',
+    image:'../img/wix1.PNG'
+    },
+    {
+    link:'https://www.ecosupply-us.com/',
+    name:'ecosupply',
+    image:'../img/ecosupply.PNG'
+    },
+]
+
+export const woocommerce =[
+
+    {
+    link:'https://www.alkaria.com.my/',
+    name:'alkaria',
+    image:'../img/alkaria.PNG'
+    },
+    {
+    link:'https://www.ceraenoor.com/',
+    name:'ceraenoor',
+    image:'../img/ceraenoor.PNG'
+    },
+    {
+    link:'http://dnmshoes.com/',
+    name:'dnmshoes',
+    image:'../img/dnmshoes.PNG'
+    },
+    {
+    link:'https://www.sdalicreations.com/',
+    name:'sdalicreations',
+    image:'../img/sdalicreations.PNG'
+    },
+   {
+    link:'https://www.obtskincare.com/pk/',
+    name:'obtskincare',
+    image:'../img/obtskincare.PNG'
+    },
+    {
+    link:'io-shop.co',
+    name:'Fitness Collection',
+    image:'../img/Fitness.PNG'
+    },
+    {
+    link:'https://khasabtours.com/',
+    name:'khasabtours',
+    image:'../img/khasabtours.PNG'
+    },
+    {
+    link:'https://www.tapalvoip.com/',
+    name:'Tapal Infosys',
+    image:'../img/tapal.PNG'
+    },
+    {
+    link:'https://www.duitpos.com/',
+    name:'duitpos',
+    image:'../img/duit.PNG'
+    },
+    {
+    link:'http://www.elgoru.com/',
+    name:'elgoru',
+    image:'../img/elgoru.png'
+    },
+    {
+    link:'http://www.elgoru.com/',
+    name:'elgoru',
+    image:'../img/elgoru.png'
+    },
+]
+export const react =[
+
+    {
+    link:'https://oiron2.netlify.app/saas',
+    name:'saas',
+    image:'../img/saas.PNG'
+    },
+    {
+    link:'https://oiron1.netlify.app/agency',
+    name:'agency',
+    image:'../img/agency.PNG'
+    },
+    {
+    link:'https://oiron.netlify.app/crypto',
+    name:'crypto',
+    image:'../img/crypto.PNG'
+    },
+    {
+    link:'https://oiron.netlify.app/cloud',
+    name:'cloud',
+    image:'../img/cloud.PNG'
+    },
+   {
+    link:'http://oiron1.netlify.app/education',
+    name:'education',
+    image:'../img/education.PNG'
+    },
+    {
+    link:'https://oiron.netlify.app/fintech',
+    name:'fintech',
+    image:'../img/fintech.PNG'
+    },
+    {
+    link:'https://oiron2.netlify.app/social-apps',
+    name:'social apps',
+    image:'../img/social.PNG'
+    },
+    {
+    link:'https://oiron1.netlify.app/marketing',
+    name:'marketing',
+    image:'../img/marketing.PNG'
+    },
+    {
+    link:'https://oiron1.netlify.app/medical',
+    name:'medical',
+    image:'../img/medical.PNG'
+    },
+    {
+    link:'https://oiron2.netlify.app/retail',
+    name:'retail',
+    image:'../img/retail.png'
+    },
+    {
+    link:'https://oiron2.netlify.app/saas2',
+    name:'saas2',
+    image:'../img/saas2.png'
+    },
+]
