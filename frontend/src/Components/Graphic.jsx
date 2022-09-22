@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import Logo from './Logo'
 
 
 export default function Webdevelopment() {
@@ -17,7 +17,7 @@ export default function Webdevelopment() {
             <Tab><h2>UI/UX Design</h2></Tab>
             </TabList>
 
-            <TabPanel></TabPanel>
+            <TabPanel><Logo/></TabPanel>
             <TabPanel></TabPanel>
             <TabPanel></TabPanel>
             <TabPanel></TabPanel>

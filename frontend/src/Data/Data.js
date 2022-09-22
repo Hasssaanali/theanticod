@@ -403,3 +403,48 @@ export const react =[
     image:'../img/saas2.png'
     },
 ]
+
+// Graphic section
+
+export const logo =[
+    {
+    image:'../img/g1.jpg',
+    },
+    {
+    image:'../img/g2.jpg',
+    },
+    {
+    image:'../img/g3.jpg',
+    },
+    {
+    image:'../img/g4.jpg',
+    },
+    {
+    image:'../img/g5.jpg',
+    },
+    {
+    image:'../img/g6.jpg',
+    },
+    {
+    image:'../img/g7.jpg',
+    },
+    {
+    image:'../img/g8.jpg',
+    },
+    {
+    image:'../img/g9.jpg',
+    },
+    {
+    image:'../img/g10.jpg',
+    },
+    {
+    image:'../img/g11.jpeg',
+    },
+    {
+    image:'../img/g12.png',
+    },
+    {
+    image:'../img/g13.jpg',
+    }
+]
+//"simple-react-lightbox": "^3.6.9-0",

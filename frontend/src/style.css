@@ -668,7 +668,13 @@ ul.react-tabs__tab-list{
     font-size: 48px !important;
     padding-bottom: 60px;
 }
-
+.portfolio.logo img{
+    height: 300px;
+    width: 100%;
+}
+.modal-body img{
+    width: 100%;
+}
 
 a {
     text-decoration: unset !important;
