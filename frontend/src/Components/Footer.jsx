@@ -25,13 +25,12 @@ export default function Footer() {
                         <div className='col-sm-4 logobar1'>
                             <span className='myfooterlogo'>{  <Typewriter options={{  strings: ['Quick Links'],  autoStart: true,  loop: true,  }} /> }</span>
                             <ul>
-                            <Link to="about"><li><i className="fa fa-bullseye"></i>About Us</li></Link>
-                                <li><i className="fa fa-bullseye"></i>Web Development</li>
-                                <li><i className="fa fa-bullseye"></i>UI/UX Design</li>
-                                <li><i className="fa fa-bullseye"></i>Social Media Marketing</li>
-                                <li><i className="fa fa-bullseye"></i>SEO Optimisation</li>
-                                <li><i className="fa fa-bullseye"></i>Video Animation</li>
-                                <li><i className="fa fa-bullseye"></i>Contact Us</li>
+                            <Link to="/about"><li><i className="fa fa-bullseye"></i>About Us</li></Link>
+                            <Link to="/articles"><li><i className="fa fa-bullseye"></i>Articles</li></Link>
+                            <Link to="/services"><li><i className="fa fa-bullseye"></i>Services</li></Link>
+                            <Link to="/services"> <li><i className="fa fa-bullseye"></i>Web Development</li></Link>
+                            <Link to="/services"> <li><i className="fa fa-bullseye"></i>Video Animation</li></Link>
+                            <Link to="/contactus"><li><i className="fa fa-bullseye"></i>Contact Us</li></Link>
                             </ul>
                         </div>
 
