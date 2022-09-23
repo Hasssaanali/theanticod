@@ -447,88 +447,186 @@ export const logo =[
 
 export const uiux =[
     {
-    image:'../img/ui1.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui1_mc5vq1.png',
     },
     {
-    image:'../img/ui2.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui2_wlo8tn.png',
     },
     {
-    image:'../img/ui3.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui3_vpki5h.png',
     },
     {
-    image:'../img/ui4.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui4_tvcwdv.png',
     },
     {
-    image:'../img/ui5.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui5_hexhad.png',
     },
     {
-    image:'../img/ui6.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui6_rvnohu.png',
     },
     {
-    image:'../img/ui7.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui7_baynxp.png',
     },
     {
-    image:'../img/ui8.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942332/ui8_korxvt.png',
     },
     {
-    image:'../img/ui9.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942332/ui9_yjz8tn.png',
     },
     {
-    image:'../img/ui10.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942331/ui10_l4vm3h.png',
     },
 ]
 
 export const stationairy =[
     {
-    image:'../img/s1.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942591/s1_nrs4s3.jpg',
     },
     {
-    image:'../img/s2.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942591/s2_n0axer.jpg',
     },
     {
-    image:'../img/s3.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942591/s3_rton6h.jpg',
     },
     {
-    image:'../img/s4.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942590/s4_tnqefu.jpg',
     },
     {
-    image:'../img/s5.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942591/s5_obyhes.jpg',
     },
     {
-    image:'../img/s6.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942590/s6_ivrk0f.jpg',
     },
 ]
 
 export const socialmedia =[
     {
-    image:'../img/sm1.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm1_zvgdzq.jpg',
     },
     {
-    image:'../img/sm2.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm2_eglbri.jpg',
     },
     {
-    image:'../img/sm3.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm3_yghgi8.jpg',
     },
     {
-    image:'../img/sm4.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm4_qrikeh.jpg',
     },
     {
-    image:'../img/sm5.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm5_xe369p.jpg',
     },
     {
-    image:'../img/sm6.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942482/img/sm6_suuiaa.jpg',
     },
     {
-    image:'../img/sm7.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942482/img/sm7_sre5de.jpg',
     },
     {
-    image:'../img/sm8.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942482/img/sm8_oad7xw.jpg',
     },
     {
-    image:'../img/sm9.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942482/img/sm9_cb2bt3.jpg',
     },
     {
-    image:'../img/sm10.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663942481/img/sm10_t3l6us.jpg',
     },
 ]
 
+// Seo
+
+export const blogseo =[
+    {
+    link:'https://www.fish-nation.com/',
+    name:'fish-nation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916583/img/fish_pkphbx.png'
+    },
+    {
+    link:'https://www.hunt-nation.com/',
+    name:'Hunt Nation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916579/img/rain_nenigp.png'
+    },
+    {
+    link:'https://www.twooffshore.com/',
+    name:'twooffshore',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916588/img/offshore_tmp3wa.png'
+    },
+    {
+    link:'https://rangepartners.com/',
+    name:'Range Partners',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663940256/rangepartner_ccteyo.png'
+    }, 
+]
+
+
+export const ecomseo =[
+    {
+    link:'https://www.alkaria.com.my/',
+    name:'alkaria',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916536/img/alkaria_qyqrpu.png'
+    },
+    {
+    link:'https://www.duitpos.com/',
+    name:'duitpos',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916578/img/duit_lquupm.png'
+    },
+    {
+    link:'http://dnmshoes.com/',
+    name:'dnmshoes',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916578/img/dnmshoes_b6xrig.png'
+    },
+    {
+    link:'https://rangemeatacademystore.com/',
+    name:'Range Partner Store',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663940761/rangestore_pxlm1d.png'
+    },
+    {
+    link:'https://revolutionbeauty.pk/',
+    name:'revolution beauty',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916573/img/revolution_wkeuuh.png'
+    },
+]
+
+// video
+
+export const video =[
+    {
+    link:'https://youtu.be/qKJJY8ddqlM',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941574/v1_sopjs4.png'
+    },
+    {
+    link:'https://youtu.be/tlRdfpK2kpU',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941574/v2_gp2ooy.png'
+    },
+    {
+    link:'https://youtu.be/GzT5bu85WHs',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941575/v3_cdbcge.png'
+    },
+    {
+    link:'https://youtu.be/1J1zrolTj0E',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941574/v4_xyp2mz.png'
+    },
+    {
+    link:'https://youtu.be/Kb33eRUhips',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941575/v5_eu6noa.png'
+    },
+    {
+    link:'https://youtu.be/osiOv_NA_q0',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941574/v6_cr7yk5.png'
+    },
+    {
+    link:'https://youtu.be/E1Q_-lhKp2M',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941575/v7_fq3bse.png'
+    },
+    {
+    link:'https://youtu.be/zv_4TOdSXfs',
+    name:'2d Video Animation',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663941576/v8_c5b0qk.png'
+    },
+]
