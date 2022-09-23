@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { services } from "../Data/Data";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { Link } from "react-router-dom"
 
 export default function Servicesslide() {
     return (
@@ -15,7 +16,7 @@ export default function Servicesslide() {
                     <div className='col-sm-3' data-aos="fade-right" data-aos-duration="2000">
                         <h2>Services We Prrovide</h2>
                         <p>Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow. We pay attention to the voice of the market, brands and customers and that’s where our success comes from. It’s not client and agency, it’s a collective us to turn the brand into a legend.</p>
-                        <span className='white-btn'>View All</span>
+                        <Link to="/services"><span className='white-btn'>View All</span></Link>
                     </div>
 
                     <div className='col-sm-9' data-aos="fade-left" data-aos-duration="2000">
@@ -28,7 +29,7 @@ export default function Servicesslide() {
                                             <span>
                                                 <h2>{data.heading}</h2>
                                                 <p>{data.text}</p>
-                                                <span className='white-btn' href='#'>Visit Now</span>
+                                                <Link to="/services"><span className='white-btn'>Visit Now</span></Link>
                                             </span>
                                         </div>
                                     </SwiperSlide>

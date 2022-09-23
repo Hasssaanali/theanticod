@@ -3,20 +3,20 @@ export const banner = [
     key:"1",
     heading:"Web Development",
     text:"Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet.ess",
-    image:"../img/homeslide.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916567/img/homeslide_pe3cis.jpg"
     },
     {
     key:"2",
     heading:"Search Engine Optimization",
     text:"Search engine optimization (SEO) is the art and science of getting pages to rank higher in search engines such as Google.",
-    image:"../img/homeslide2.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663917312/img/homeslide2_i7pesw.jpg"
     },
 
     {
     key:"3",
     heading:"UI/UX Designing",
     text:"UI/UX Designing is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs",
-    image:"../img/homeslide3.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663917297/img/homeslide3_rihpnt.jpg"
     },
 ]
 
@@ -25,32 +25,32 @@ export const services = [
     key:"4",
     heading:"Web Development",
     text:"Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet.ess",
-    image:"../img/web.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916564/img/web_k8qlep.jpg"
     },
     {
     key:"5",
     heading:"UI/UX Design ",
     text:"Search engine optimization (SEO) is the art and science of getting pages to rank higher in search engines such as Google.",
-    image:"../img/graphic.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916565/img/graphic_ctd44u.jpg"
     },
 
     {
     key:"6",
     heading:"Social Media Marketing",
     text:"As a leading Digital Marketing Company and top online marketing agency, we connect your audience by providing top internet marketing solutions for your brand in the online world. ",
-    image:"../img/smm.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916563/img/Smm_rqmi4h.jpg"
     },
     {
     key:"7",
     heading:"SEO Optimisation",
     text:"Search engine optimization (SEO) is the art and science of getting pages to rank higher in search engines such as Google.",
-    image:"../img/SEO.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916564/img/SEO_ndajn0.jpg"
     },
     {
     key:"8",
     heading:"Video Animation",
     text:"Videos are a powerful storytelling tool and can convey messages effectively and conveniently. Your story is unique; narrate it with a unique animated video! ",
-    image:"../img/graphic.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916565/img/graphic_ctd44u.jpg"
     },
 ]
 
@@ -60,42 +60,42 @@ export const reviews = [
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
     {
     key:"10",
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
     {
     key:"11",
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
     {
     key:"12",
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
     {
     key:"13",
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
     {
     key:"14",
     heading:"Sean Parker",
     company:"Napster Founder",
     text:"Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.",
-    image:"../img/review.jpg"
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg"
     },
             
 ]
@@ -103,29 +103,29 @@ export const reviews = [
 export const articles = [
     {
     key:"15",
-    feature:"../img/article1.jpg",
-    avatar:"../img/review.jpg",
+    feature:"https://res.cloudinary.com/anticod/image/upload/v1663916544/img/article1_mxczjq.jpg",
+    avatar:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg",
     heading:"What to do if you have a Small Marketing Budget ?",
     excerpt:"Are you getting into marketing activities for your business? Is your budget limited? If you are a small business working off a small marketing budget."
     },
     {
     key:"16",
-    feature:"../img/article2.jpg",
-    avatar:"../img/review.jpg",
+    feature:"https://res.cloudinary.com/anticod/image/upload/v1663916540/img/article2_zw26fx.jpg",
+    avatar:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg",
     heading:"What to do if you have a Small Marketing Budget ?",
     excerpt:"Are you getting into marketing activities for your business? Is your budget limited? If you are a small business working off a small marketing budget."
     },
     {
     key:"17",
-    feature:"../img/article3.jpg",
-    avatar:"../img/review.jpg",
+    feature:"https://res.cloudinary.com/anticod/image/upload/v1663916541/img/article3_smvkgi.jpg",
+    avatar:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg",
     heading:"What to do if you have a Small Marketing Budget ?",
     excerpt:"Are you getting into marketing activities for your business? Is your budget limited? If you are a small business working off a small marketing budget."
     },
     {
     key:"18",
-    feature:"../img/article2.jpg",
-    avatar:"../img/review.jpg",
+    feature:"https://res.cloudinary.com/anticod/image/upload/v1663916540/img/article2_zw26fx.jpg",
+    avatar:"https://res.cloudinary.com/anticod/image/upload/v1663916566/img/review_jhju2e.jpg",
     heading:"What to do if you have a Small Marketing Budget 12 ?",
     excerpt:"Are you getting into marketing activities for your business? Is your budget limited? If you are a small business working off a small marketing budget."
     },
@@ -166,19 +166,19 @@ export const growth = [
     key:"24",
     heading:"Free Consultation & Audit",
     text:"Schedule to speak with one of our experts to discuss your project in detail and we will guide you with a solution, pricing plan and project plan that best suits your brand needs.",
-    image:"../img/audit.jpg",
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916543/img/audit_lkpmqe.jpg",
     },
     {
     key:"25",
     heading:"Creative Brief & Discovery Call",
     text:"Our dedicated project manager will share online questionnaire forms which will hardly take 4-5 minutes to fill online and let us know about your project specifics that will cover all the technical and aesthetic needs of the project. That’s all we will need from your end to start the research and to kickstart the project.",
-    image:"../img/creative.jpg",
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916546/img/creative_gsocnm.jpg",
     },
     {
     key:"26",
     heading:"Initial Designs & Delivery",
     text:"Schedule to speak with one of our experts to discuss your project in detail and we will guide you with a solution, pricing plan and project plan that best suits your brand needs.",
-    image:"../img/delivery.jpg",
+    image:"https://res.cloudinary.com/anticod/image/upload/v1663916547/img/delivery_zpmq9v.jpg",
     },       
 ]
 
@@ -190,52 +190,52 @@ export const wordpress =[
     {
     link:'https://mckibookkeeping.com/',
     name:'mckibookkeeping',
-    image:'../img/mcki.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916553/img/mcki_eywdv4.png'
     },
     {
     link:'https://www.twooffshore.com/',
     name:'twooffshore',
-    image:'../img/offshore.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916588/img/offshore_tmp3wa.png'
     },
     {
     link:'https://www.fish-nation.com/',
     name:'fish-nation',
-    image:'../img/fish.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916583/img/fish_pkphbx.png'
     },
     {
     link:'https://raindance.ac.uk/dubai/',
     name:'raindance',
-    image:'../img/rain.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916579/img/rain_nenigp.png'
     },
    {
     link:'https://www.myopiamalaysia.com/',
     name:'MAMP',
-    image:'../img/mamp.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916571/img/mamp_fmezdy.png'
     },
     {
     link:'https://www.hunt-nation.com/',
     name:'Hunt-Nation',
-    image:'../img/hunt.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916574/img/hunt_f0o6uc.png'
     },
     {
     link:'https://khasabtours.com/',
     name:'khasabtours',
-    image:'../img/khasabtours.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916591/img/khasabtours_zqq5iz.png'
     },
     {
     link:'https://www.tapalvoip.com/',
     name:'Tapal Infosys',
-    image:'../img/tapal.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916557/img/tapal_rtzh88.png'
     },
     {
     link:'https://www.duitpos.com/',
     name:'duitpos',
-    image:'../img/duit.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916578/img/duit_lquupm.png'
     },
     {
     link:'https://carbodyworx.com/',
     name:'carbodyworx',
-    image:'../img/carbodyworx.png'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916544/img/carbodyworx_e5cdfc.png'
     },
 ]
 
@@ -244,32 +244,32 @@ export const shopify =[
     {
     link:'https://naturesflairfoods.com/',
     name:'Natural Foods',
-    image:'../img/nature.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916576/img/nature_enfo3d.png'
     },
     {
     link:'https://www.realfruitwater.com/',
     name:'real fruit water',
-    image:'../img/real.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916570/img/real_kvecku.png'
     },
     {
     link:'https://www.terrademode.com/',
     name:'terrademode',
-    image:'../img/terra.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916584/img/terra_ceiq5l.png'
     },
     {
     link:'https://www.thelumiereco.com/',
     name:'lumier',
-    image:'../img/lumier.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916573/img/lumier_b8zwfb.png'
     },
    {
     link:'https://www.adorn512.com/',
     name:'adorn Jewelry',
-    image:'../img/addron.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916530/img/addron_dbnz8v.png'
     },
     {
     link:'https://revolutionbeauty.pk/',
     name:'revolution beauty',
-    image:'../img/revolution.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916573/img/revolution_wkeuuh.png'
     },
 ]
 
@@ -278,12 +278,12 @@ export const wix =[
     {
     link:'https://www.mykafluri.com/',
     name:'mykafluri',
-    image:'../img/wix1.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916562/img/wix1_dvofjb.png'
     },
     {
     link:'https://www.ecosupply-us.com/',
     name:'ecosupply',
-    image:'../img/ecosupply.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916568/img/ecosupply_kyg3cj.png'
     },
 ]
 
@@ -292,115 +292,111 @@ export const woocommerce =[
     {
     link:'https://www.alkaria.com.my/',
     name:'alkaria',
-    image:'../img/alkaria.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916536/img/alkaria_qyqrpu.png'
     },
     {
     link:'https://www.ceraenoor.com/',
     name:'ceraenoor',
-    image:'../img/ceraenoor.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916548/img/ceraenoor_tfhcxb.png'
     },
     {
     link:'http://dnmshoes.com/',
     name:'dnmshoes',
-    image:'../img/dnmshoes.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916578/img/dnmshoes_b6xrig.png'
     },
     {
     link:'https://www.sdalicreations.com/',
     name:'sdalicreations',
-    image:'../img/sdalicreations.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916547/img/sdalicreations_zv67j3.png'
     },
    {
     link:'https://www.obtskincare.com/pk/',
     name:'obtskincare',
-    image:'../img/obtskincare.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916531/img/obtskincare_gizmeh.png'
     },
     {
     link:'io-shop.co',
     name:'Fitness Collection',
-    image:'../img/Fitness.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916569/img/Fitness_krq6ha.png'
     },
     {
     link:'https://khasabtours.com/',
     name:'khasabtours',
-    image:'../img/khasabtours.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916546/img/khasabtours_ukta6m.png'
     },
     {
     link:'https://www.tapalvoip.com/',
     name:'Tapal Infosys',
-    image:'../img/tapal.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916569/img/tapal_n2ledp.png'
     },
     {
     link:'https://www.duitpos.com/',
     name:'duitpos',
-    image:'../img/duit.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916578/img/duit_lquupm.png'
     },
     {
     link:'http://www.elgoru.com/',
     name:'elgoru',
-    image:'../img/elgoru.png'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916580/img/elgoru_lqn8ja.png'
     },
-    {
-    link:'http://www.elgoru.com/',
-    name:'elgoru',
-    image:'../img/elgoru.png'
-    },
+    
 ]
 export const react =[
 
     {
     link:'https://oiron2.netlify.app/saas',
     name:'saas',
-    image:'../img/saas.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916563/img/saas_v4n8qh.png'
     },
     {
     link:'https://oiron1.netlify.app/agency',
     name:'agency',
-    image:'../img/agency.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916529/img/agency_hudqry.png'
     },
     {
     link:'https://oiron.netlify.app/crypto',
     name:'crypto',
-    image:'../img/crypto.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916567/img/crypto_jlxofj.png'
     },
     {
     link:'https://oiron.netlify.app/cloud',
     name:'cloud',
-    image:'../img/cloud.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916546/img/cloud_suzdtb.png'
     },
    {
     link:'http://oiron1.netlify.app/education',
     name:'education',
-    image:'../img/education.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916565/img/education_e23mom.png'
     },
     {
     link:'https://oiron.netlify.app/fintech',
     name:'fintech',
-    image:'../img/fintech.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916551/img/fintech_k8r3br.png'
     },
     {
     link:'https://oiron2.netlify.app/social-apps',
     name:'social apps',
-    image:'../img/social.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916556/img/social_um21kt.png'
     },
     {
     link:'https://oiron1.netlify.app/marketing',
     name:'marketing',
-    image:'../img/marketing.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916563/img/marketing_e6rdfg.png'
     },
     {
     link:'https://oiron1.netlify.app/medical',
     name:'medical',
-    image:'../img/medical.PNG'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916552/img/medical_nc4cpc.png'
     },
     {
     link:'https://oiron2.netlify.app/retail',
     name:'retail',
-    image:'../img/retail.png'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916564/img/retail_baetge.png'
     },
     {
     link:'https://oiron2.netlify.app/saas2',
     name:'saas2',
-    image:'../img/saas2.png'
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916555/img/saas2_u9txdm.png'
     },
 ]
 
@@ -408,43 +404,131 @@ export const react =[
 
 export const logo =[
     {
-    image:'../img/g1.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g1_kqe0xs.jpg',
     },
     {
-    image:'../img/g2.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g2_xwofu0.jpg',
     },
     {
-    image:'../img/g3.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g3_yyjidg.jpg',
     },
     {
-    image:'../img/g4.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g4_kbocsn.jpg',
     },
     {
-    image:'../img/g5.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916550/img/g5_fmjpks.jpg',
     },
     {
-    image:'../img/g6.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g6_v6miyc.jpg',
     },
     {
-    image:'../img/g7.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g7_ohlthy.jpg',
     },
     {
-    image:'../img/g8.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916551/img/g8_zw5us8.jpg',
     },
     {
-    image:'../img/g9.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916561/img/g9_ow6l7t.jpg',
     },
     {
-    image:'../img/g10.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916549/img/g10_yx80x6.jpg',
     },
     {
-    image:'../img/g11.jpeg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916549/img/g11_uu9qgd.jpg',
     },
     {
-    image:'../img/g12.png',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g12_wh58gj.png',
     },
     {
-    image:'../img/g13.jpg',
+    image:'https://res.cloudinary.com/anticod/image/upload/v1663916560/img/g13_uz1bkg.jpg',
     }
 ]
-//"simple-react-lightbox": "^3.6.9-0",
+
+
+export const uiux =[
+    {
+    image:'../img/ui1.png',
+    },
+    {
+    image:'../img/ui2.png',
+    },
+    {
+    image:'../img/ui3.png',
+    },
+    {
+    image:'../img/ui4.png',
+    },
+    {
+    image:'../img/ui5.png',
+    },
+    {
+    image:'../img/ui6.png',
+    },
+    {
+    image:'../img/ui7.png',
+    },
+    {
+    image:'../img/ui8.png',
+    },
+    {
+    image:'../img/ui9.png',
+    },
+    {
+    image:'../img/ui10.png',
+    },
+]
+
+export const stationairy =[
+    {
+    image:'../img/s1.jpg',
+    },
+    {
+    image:'../img/s2.jpg',
+    },
+    {
+    image:'../img/s3.jpg',
+    },
+    {
+    image:'../img/s4.jpg',
+    },
+    {
+    image:'../img/s5.jpg',
+    },
+    {
+    image:'../img/s6.jpg',
+    },
+]
+
+export const socialmedia =[
+    {
+    image:'../img/sm1.jpg',
+    },
+    {
+    image:'../img/sm2.jpg',
+    },
+    {
+    image:'../img/sm3.jpg',
+    },
+    {
+    image:'../img/sm4.jpg',
+    },
+    {
+    image:'../img/sm5.jpg',
+    },
+    {
+    image:'../img/sm6.jpg',
+    },
+    {
+    image:'../img/sm7.jpg',
+    },
+    {
+    image:'../img/sm8.jpg',
+    },
+    {
+    image:'../img/sm9.jpg',
+    },
+    {
+    image:'../img/sm10.jpg',
+    },
+]
+

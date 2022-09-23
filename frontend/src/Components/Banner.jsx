@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { banner } from '../Data/Data'
+import { Link } from "react-router-dom"
 
 
  function CarouselFadeExample() {
@@ -16,7 +17,7 @@ return (
         <Carousel.Caption>
           <h3>{data.heading}</h3>
           <p>{data.text}</p>
-          <span className='banner-btn'>Check It Out</span>
+          <Link to="/services"><span className='banner-btn'>Check Now</span></Link>
         </Carousel.Caption>
       </Carousel.Item>
 )

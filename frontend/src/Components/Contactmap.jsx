@@ -40,7 +40,7 @@ export default function Contactmap() {
         <div className='container contactform'>
             <div className='row'>
                 <div className='col-sm-6' data-aos="fade-right" data-aos-duration="2000">
-                <iframe frameBorder="0" width="100%" height="700px" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
+               <img src='./img/mapimage.PNG'/>
                 </div>
 
                 {/* form */}

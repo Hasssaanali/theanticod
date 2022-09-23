@@ -21,7 +21,7 @@ export default function Aboutexpert() {
                 </div>
 
                 <div className='col-sm-6 abtimg' data-aos="fade-left"  data-aos-duration="2000">
-                    <img src='../img/aboutside.jpg' alt='image' width="100%"/>
+                    <img src='https://res.cloudinary.com/anticod/image/upload/v1663916565/img/aboutside_ibtmhg.jpg' alt='image' width="100%"/>
                 </div>
             </div>
         </div>

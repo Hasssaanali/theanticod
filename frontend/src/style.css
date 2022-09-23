@@ -639,15 +639,19 @@ ul.react-tabs__tab-list{
     width: 100%;
     height: 100%;
 }
+.portfolio .col-sm-3{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 5px;
+}
 .portfolio span{
     opacity: 0;
     position: relative;
-    top: -100%;
+    top: -90%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.538);
-    height: 100%;
+    height: 90%;
     width: 100%;
     color: #eee;
     font-size: 22px;
@@ -655,26 +659,78 @@ ul.react-tabs__tab-list{
     font-family: 'Raleway', sans-serif;
     transition: all 300ms ease-in-out;
     text-transform: capitalize;
+    cursor: pointer;
+
 
 }
 .portfolio .col-sm-3{
     margin-bottom: 20px;
+    width: 24%;
 }
 .portfolio .col-sm-3:hover span{
     opacity: 1;
     transition: all 300ms ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .text-center h2{
     font-size: 48px !important;
     padding-bottom: 60px;
 }
 .portfolio.logo img{
-    height: 300px;
     width: 100%;
 }
 .modal-body img{
     width: 100%;
 }
+.modal-content {
+    background: transparent !important;
+    border: unset !important;
+    top: 10%;
+}
+.modal-header {
+    border: unset !important;
+}
+.modal-header div{
+    color: #eee;
+    font-size: 22px !important;
+    font-weight:300 !important;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: uppercase;
+}
+.logo .modal-dialog {
+    height: 80vh;
+    width: 100% !important;
+    max-width: 35% !important;
+}
+.modal-dialog {
+    height: 80vh;
+    width: 100% !important;
+    max-width: 35% !important;
+}
+
+.btn-close {
+    background: #fff url(data:image/svg+xml,%3csvg ) center/1em auto no-repeat;
+}
+.fade.modal.show {
+    padding: 0 !important;
+}
+.modal-backdrop{
+    background-color: #0000004f !important;
+}
+.manageheight {
+    height: 300px !important;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.manageheight img{
+    height: auto !important;
+}
+.white-btn:hover{
+    cursor: pointer;
+}
+
 
 a {
     text-decoration: unset !important;
@@ -689,4 +745,8 @@ a {
 html{
     overflow-x: hidden;
 }
-
+/* width */
+::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  

@@ -1,12 +1,12 @@
 import React, { Fragment, useState } from "react";
 import Fade from "react-reveal/Fade";
-import { logo } from "../Data/Data";
+import { socialmedia } from "../Data/Data";
 import Modal from "react-bootstrap/Modal";
 
 
 
 
-export default function Logo() {
+export default function Socialmedia() {
 
     const [show, setShow] = useState(false);
     const [image, setimage] = useState({ })
@@ -21,7 +21,7 @@ export default function Logo() {
             <Fade left>
                 <div className='container-fluid'>
                     <div className='row portfolio logo'>
-                        {logo.map((data, index) => {
+                        {socialmedia.map((data, index) => {
                             return (
                                 <div className='col-sm-3' key={index}>
                                     <div className="manageheight">
@@ -31,7 +31,7 @@ export default function Logo() {
 
                                     <Modal show={show} onHide={handleClose}>
                                         <Modal.Header closeButton>
-                                        <Modal.Title>Logo Mockups</Modal.Title>
+                                        <Modal.Title>UI/UI Mockups</Modal.Title>
                                         </Modal.Header>
                                         <Modal.Body>
                                         <img src={image.image} alt="img" />
