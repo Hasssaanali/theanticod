@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react'
+
+import React, { Fragment  } from 'react';
 import Contactbanner from '../Components/Contactbanner';
 import Contacticons from '../Components/Contacticons';
 import Contactmap from '../Components/Contactmap';
 
 
 
-export default function About() {
+export default function Contact() {
   return (
     <Fragment>
     <Contactbanner/>

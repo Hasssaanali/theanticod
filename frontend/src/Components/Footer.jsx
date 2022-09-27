@@ -14,7 +14,7 @@ export default function Footer() {
                     <div className='row'>
 
                         <div className='col-sm-4 logobar'>
-                            <Link to="/" className='myfooterlogo'><img src="../img/logo3.png" />  {  <Typewriter options={{  strings: ['The Anticod'],  autoStart: true,  loop: true,  }} /> }</Link>
+                            <Link to="/" className='myfooterlogo'  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><img src="../img/logo3.png" />  {  <Typewriter options={{  strings: ['The Anticod'],  autoStart: true,  loop: true,  }} /> }</Link>
                             <p>We provide the uppermost quality to our clients and make them believe in us. Our platform connects us to you and provides opportunities for relations with our support services 24/7.</p>
                             <span onClick={()=> window.open("https://www.facebook.com/", "_blank")}><i className="fa fa-facebook"></i></span>
                             <span onClick={()=> window.open("https://www.linkedin.com/login", "_blank")}><i className="fa fa-linkedin"></i></span>
@@ -25,12 +25,12 @@ export default function Footer() {
                         <div className='col-sm-4 logobar1'>
                             <span className='myfooterlogo'>{  <Typewriter options={{  strings: ['Quick Links'],  autoStart: true,  loop: true,  }} /> }</span>
                             <ul>
-                            <Link to="/about"><li><i className="fa fa-bullseye"></i>About Us</li></Link>
-                            <Link to="/articles"><li><i className="fa fa-bullseye"></i>Articles</li></Link>
-                            <Link to="/services"><li><i className="fa fa-bullseye"></i>Services</li></Link>
-                            <Link to="/services"> <li><i className="fa fa-bullseye"></i>Web Development</li></Link>
-                            <Link to="/services"> <li><i className="fa fa-bullseye"></i>Video Animation</li></Link>
-                            <Link to="/contactus"><li><i className="fa fa-bullseye"></i>Contact Us</li></Link>
+                            <Link to="/about"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><li><i className="fa fa-bullseye"></i>About Us</li></Link>
+                            <Link to="/articles"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><li><i className="fa fa-bullseye"></i>Articles</li></Link>
+                            <Link to="/services"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><li><i className="fa fa-bullseye"></i>Services</li></Link>
+                            <Link to="/services"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}> <li><i className="fa fa-bullseye"></i>Web Development</li></Link>
+                            <Link to="/services"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}> <li><i className="fa fa-bullseye"></i>Video Animation</li></Link>
+                            <Link to="/contactus" onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><li><i className="fa fa-bullseye"></i>Contact Us</li></Link>
                             </ul>
                         </div>
 

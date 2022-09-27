@@ -1,8 +1,6 @@
-import React, { Fragment } from 'react'
+import React, { Fragment  } from 'react';
 import Mainservices from '../Components/Mainservices'
 import Servicesbanner from '../Components/Servicesbanner'
-import Logo from "../Components/Logo"
-
 
 
 export default function Services() {
@@ -10,7 +8,6 @@ export default function Services() {
     <Fragment>
         <Servicesbanner/>
         <Mainservices />
-      
     </Fragment>
   )
 }

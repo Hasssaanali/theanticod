@@ -18,7 +18,7 @@ export default function Servicesbanner() {
                 <div className='col-sm-6 about' data-aos="fade-right"  data-aos-duration="2000">
                     <h2> White Label Web Development Agency</h2>
                     <p>Rely on our White Label Development Service for well-coded WordPress sites for your clients, always delivered on-time and within your budget.Whether your development team is already maxed out and you need extra resources or you don’t want to maneuver the complex and dynamic world of web programming, we can still help you grow your bottom line.</p>
-                    <Link to="/contactus"><span className='white-btn'>Contact Now</span></Link>
+                    <Link to="/contactus"  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}><span className='white-btn'>Contact Now</span></Link>
                 </div>
 
                 <div className='col-sm-6 abtimg' data-aos="fade-left"  data-aos-duration="2000">

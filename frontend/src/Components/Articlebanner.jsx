@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { articles } from "../Data/Data";
+import { Link } from "react-router-dom"
 
 
 export default function Articlebanner() {
@@ -28,7 +29,10 @@ export default function Articlebanner() {
                                         <img src={data.avatar} alt="testimonials" className="avatar" />
                                         <h4>{data.heading}</h4>
                                         <p>{data.excerpt}</p>
+                                        <p><b>Author</b>:{data.Author}</p>
+                                        <Link to={`/singlearticle/${data.key}`}  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}>
                                         <span className='white-btn'>Check It Out</span>
+                                        </Link>
                                     </div>
 
                                 )
