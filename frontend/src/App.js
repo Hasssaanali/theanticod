@@ -1,4 +1,5 @@
 import "./style.css"
+import "./responsive.css"
 import React, { Fragment, useState, useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";

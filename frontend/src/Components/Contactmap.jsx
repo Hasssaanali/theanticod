@@ -39,7 +39,7 @@ export default function Contactmap() {
       
         <div className='container contactform'>
             <div className='row'>
-                <div className='col-sm-6' data-aos="fade-right" data-aos-duration="2000">
+                <div className='col-sm-6 map' data-aos="fade-right" data-aos-duration="2000">
                <img src='https://res.cloudinary.com/anticod/image/upload/v1663943335/mapimage_wolkzl.png'/>
                 </div>
 

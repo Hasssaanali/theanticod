@@ -6,7 +6,7 @@ export default function Contactbanner() {
     <Fragment>
         <div className='container-fluid'>
             <div className='row'>
-                <div className='col-sm-12 abtbanner' data-aos="fade-down" data-aos-duration="2000">
+                <div className='col-sm-12 abtbanner' >
                     <h2>Contact Us</h2>
                     <p> Our passion is to improve Return on Investment using tested business and marketing strategies.</p>
                 </div>

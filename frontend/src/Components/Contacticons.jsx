@@ -32,6 +32,11 @@ export default function Contacticons() {
                 </div>
             </div>
         </div>
+        <div className="container">
+          <div className="row mobile">
+            <img src="./img/swipe.jpg" alt="sc" width="10"/>
+          </div>
+        </div>
     </Fragment>
   )
 }

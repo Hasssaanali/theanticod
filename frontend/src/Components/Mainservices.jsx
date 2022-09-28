@@ -22,14 +22,22 @@ export default function Mainservices() {
             <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916530/img/Animation_k0f5nl.png' /></Tab>
             <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916561/img/Digital_duscec.png' /></Tab>
             </TabList>
-
+            <div className="container">
+              <div className="row mobile">
+                <img src="./img/swipe.jpg" alt="sc" width="10"/>
+              </div>
+            </div>
             <TabPanel> <Webdevelopment /> </TabPanel>
             <TabPanel><Graphic /> </TabPanel>
             <TabPanel><Seotabs/></TabPanel>
             <TabPanel><Animation/></TabPanel>
             <TabPanel><Marketing/></TabPanel>
        </Tabs> 
-  
+          <div className="container">
+              <div className="row mobile">
+                <img src="./img/swipe.jpg" alt="sc" width="10"/>
+              </div>
+            </div>
         </div>
     </div>
        

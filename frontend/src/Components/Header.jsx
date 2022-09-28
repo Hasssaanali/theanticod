@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -18,11 +18,16 @@ export default function Header() {
             {<Typewriter options={{ strings: ['The Anticod'], autoStart: true, loop: true, }} />}
          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Link to="about">About Us</Link>
-              <Link to="articles">Articles</Link>
-              <Link to="services">Services</Link>
+          <Navbar.Collapse id="basic-navbar-nav" >
+            <Nav className="ml-auto" >
+              <Link to="about" >About Us</Link>
+              <Link to="articles" >Articles</Link>
+              <Link to="services" >Services</Link>
+              <Link to="contactus" >Contact Us</Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
               {/* <NavDropdown title="Services" id="basic-nav-dropdown">
                 <NavDropdown.Item >Web Development</NavDropdown.Item>
                 <NavDropdown.Item >UI/UX Design </NavDropdown.Item>
@@ -30,12 +35,6 @@ export default function Header() {
                 <NavDropdown.Item >SEO Optimisation</NavDropdown.Item>
                 <NavDropdown.Item >Video Animation</NavDropdown.Item>
               </NavDropdown> */}
-              <Link to="contactus">Contact Us</Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
     </Fragment>
   )
 }

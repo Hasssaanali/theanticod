@@ -8,7 +8,7 @@ export default function Articlebanner() {
     <Fragment>
         <div className='container-fluid'>
             <div className='row'>
-                <div className='col-sm-12 abtbanner' data-aos="fade-down" data-aos-duration="2000">
+                <div className='col-sm-12 abtbanner'>
                     <h2>Articles Toward Digital World</h2>
                     <p> Alone we can do So little together we can do so much Instead of following the trend, we create trends that everyone wants to follow.</p>
                 </div>

@@ -21,7 +21,7 @@ export default function Servicesslide() {
 
                     <div className='col-sm-9' data-aos="fade-left" data-aos-duration="2000">
 
-                        <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, pauseOnMouseEnter: true, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[Autoplay, Pagination, Navigation]} className="mySwiper" >
+                        <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} autoplay={{ delay: 2500, pauseOnMouseEnter: true, disableOnInteraction: false, }} pagination={{ clickable: true, }} navigation={true} modules={[Autoplay, Pagination, Navigation]} breakpoints={{  "@0.00": { slidesPerView: 1, spaceBetween: 10, }, "@0.75": {slidesPerView: 2,spaceBetween: 30,}, "@1.00": { slidesPerView: 3,spaceBetween: 30,},"@1.50": { slidesPerView: 3, spaceBetween: 30,},}} className="mySwiper" >
                             {services.map((data) => {
                                 return (
                                     <SwiperSlide key={data.key}>
