@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,7 +14,7 @@ export default function Header() {
       <Navbar expand="lg">
         <Container>
 
-          <Link to='/' className='logo'><img src="../img/logo3.png" />
+          <Link to='/' className='logo'><img src="../img/logo3.png" alt='logo'/>
             {<Typewriter options={{ strings: ['The Anticod'], autoStart: true, loop: true, }} />}
          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,6 +23,7 @@ export default function Header() {
               <Link to="about" >About Us</Link>
               <Link to="articles" >Articles</Link>
               <Link to="services" >Services</Link>
+              <Link to="career" >Career</Link>
               <Link to="contactus" >Contact Us</Link>
             </Nav>
           </Navbar.Collapse>

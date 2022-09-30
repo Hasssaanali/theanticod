@@ -638,3 +638,82 @@ export const video =[
     image:'https://res.cloudinary.com/anticod/image/upload/v1663941576/v8_c5b0qk.png'
     },
 ]
+
+// jobs
+
+export const jobs = [
+    {
+        key:"1",
+        category:"Web Development",
+        jobtitle:"Html Css",
+        designation:"",
+    },
+    {
+        key:"2",
+        category:"Graphic Designing ",
+        jobtitle:"Logo Designer",
+        designation:"",
+    },
+    {
+        key:"3",
+        category:"SMM ",
+        jobtitle:"Paid Compaing",
+        designation:"",
+    },
+    {
+        key:"4",
+        category:"Graphic Designing",
+        jobtitle:"UI/UI Designer",
+        designation:"",
+    },
+    {
+        key:"5",
+        category:"SMM ",
+        jobtitle:"Pages Maintainer",
+        designation:"",
+    },
+    {
+        key:"6",
+        category:"SMM ",
+        jobtitle:"Digital marketer",
+        designation:"",
+    },
+    {
+        key:"7",
+        category:"Bidders ",
+        jobtitle:"Fiver Bidder",
+        designation:"",
+    },
+    {
+        key:"8",
+        category:"Bidders ",
+        jobtitle:"Upwork Bidder",
+        designation:"",
+    },
+    {
+        key:"9",
+        category:"Admin ",
+        jobtitle:"Office Boy",
+        designation:"",
+    },
+    {
+        key:"10",
+        category:"Web Development",
+        jobtitle:"Shopify Developer",
+        designation:"",
+    },
+    {
+        key:"11",
+        category:"Web Development",
+        jobtitle:"Wordpress Developer",
+        designation:"",
+    },
+    {
+        key:"12",
+        category:"Web Development",
+        jobtitle:"React Developer",
+        designation:"",
+    },
+
+]
+

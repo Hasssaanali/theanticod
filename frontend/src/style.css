@@ -849,3 +849,48 @@ html{
 .mobile{
     display: none !important;
 }
+.career {
+    text-align:center;
+}
+.gry{
+    color:#BFCCDC !important;
+}
+.career h2{
+    color: #000;
+}
+.career p{
+    font-size: 28px !important;
+    padding: 50px 0 !important;
+    margin: 0;
+}
+.jobs {
+    border: 0px solid;
+    margin-bottom: 10px;
+    background:#fff;
+    box-shadow: rgb(99 99 99 / 20%) 0 2px 8px 0;
+    align-items: center !important;
+    padding: 10px 30px;
+}
+.jobs h3{
+    font-size: 22px !important;
+    margin: 0 ;
+}
+.jobs p{
+    font-size: 18px !important;
+    font-weight: 600;
+    margin: 0 ;
+    text-align: center;
+    background-color: #BFCCDC;
+    padding: 10px;
+}
+.jobs span {
+    background: #000;
+    color: #fff;
+    padding: 12px 60px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.btnn{
+    text-align: right;
+}

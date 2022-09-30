@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contactus from "./Pages/Contactus";
 import Services from "./Pages/Services";
+import Career from "./Pages/Career";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import {
@@ -48,6 +49,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="contactus" element={<Contactus />} />
           <Route path="singlearticle/:key" element={<Singlearticcle />} />
+          <Route path="career" element={<Career />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
