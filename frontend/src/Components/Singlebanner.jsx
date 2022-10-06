@@ -10,9 +10,9 @@ export default function Singlebanner() {
   return (
     <Fragment>
       <div className="container-fluid">
-        {articles.map((data) => {
+        {articles.map((data, index) => {
           return (
-            <>
+            <div key={index}>
               {
                 data.key === abc ? <>
                 <div className="row" key={data.key}>
@@ -49,9 +49,10 @@ export default function Singlebanner() {
 
                   <div className="col-sm-4 sidebar" >
                     <h3>Recent Articles</h3>
-                    {articles.slice(0, 3).map((data) => {
+                    {articles.slice(0, 3).map((data, index) => {
                       return (
-                        <Link to={`/singlearticle/${data.key}`}  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }}>
+                        <div key={data.key}>
+                        <Link to={`/singlearticle/${data.key}`}  onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); }} >
                           <div className="recent row">
                             <div className="col-sm-3">
                               <img
@@ -68,6 +69,7 @@ export default function Singlebanner() {
                             </div>
                           </div>
                         </Link>
+                        </div>
                       );
                     })}
                   </div>
@@ -75,7 +77,7 @@ export default function Singlebanner() {
               </div>
                 </> : null
               }
-            </>
+            </div>
           );
         })}
       </div>

@@ -18,6 +18,7 @@ import {
 import Articlebanner from "./Components/Articlebanner";
 import Singlearticcle from "./Pages/Singlearticcle";
 import Preloader from './Components/Preloader';
+import Singlejobb from "./Pages/Singlejobb";
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  
   return (
 
     <Fragment>
@@ -50,6 +53,7 @@ function App() {
           <Route path="contactus" element={<Contactus />} />
           <Route path="singlearticle/:key" element={<Singlearticcle />} />
           <Route path="career" element={<Career />} />
+          <Route path="singlejobb/:key" element={<Singlejobb />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -155,4 +155,47 @@ ul.react-tabs__tab-list {
 html{
     overflow-x: hidden !important;
 }
+.row.jobs {
+    text-align: center;
+}
+.col-sm-4.btnn {
+    margin-top: 30px;
+    text-align: center !important;
+}
+.row.jobs {
+    padding: 25px 10px;
+    margin: 7px;
+}
+ul.mb-3.nav.nav-tabs {
+    display: flex;
+    flex-wrap: unset;
+    overflow-x: scroll;
+}
+.fade.tab-pane.active.show {
+    display: flex;
+    overflow-x: scroll;
+}
+.mobilescroll{
+    flex: 0 0 100%;
+    width: 90%;
+}
+.nav-item button{
+    width: 100%;
+}
+.career p {
+    font-size: 22px !important;
+    padding: 50px 0 !important;
+    margin: 0;
+    line-height: 30px;
+}
+.singlejob .col-sm-4 {
+    padding-bottom: 32px;
+}
+.singlejob p {
+    padding-right: 0;
+    text-align: justify;
+}
+form button {
+    width: 100%;
+}
 }

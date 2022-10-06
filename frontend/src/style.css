@@ -894,3 +894,78 @@ html{
 .btnn{
     text-align: right;
 }
+ul.mb-3.nav.nav-tabs {
+    margin-bottom: 80px !important;
+    width: auto;
+    margin: auto;
+    border: unset !important;
+}
+.nav-tabs .nav-link.active{
+    border: unset !important;
+    color: #fff !important;
+    background-color: #1E2A34 !important;
+}
+.nav-tabs .nav-link:focus{
+    outline: unset !important;
+}
+.nav-tabs button:hover{
+    border: unset !important;
+    border-color: #fff!important;
+    color: #000;
+}
+.nav-tabs .nav-link{
+    border: unset !important;
+    padding: 10px 40px !important;
+    font-size: 22px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+    color: #000;
+}
+.myjobs{
+    padding-bottom: 120px;
+    padding-top: 0;
+}
+.singlejob {
+    align-items: flex-start;
+    padding: 80px 0 !important;
+}
+.resume input{
+    box-shadow: unset !important;
+    border: unset !important;
+}
+.jobdes li{
+    list-style: none !important; 
+    margin-bottom: 10px;
+}
+.jobdes i{
+    margin-right: 10px;
+}
+.jobdes{
+    padding: 0 !important;
+}
+.jobdes h2{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.singlejob .col-sm-4{
+    padding-bottom: 120px;
+}
+.singlejob h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500 !important;
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+.singlejob p{
+    padding-right: 60px;
+    text-align: justify;
+}
+form button {
+    width: 35% !important;
+}
+.form-control:disabled {
+    background-color: #fff !important;
+    opacity: 1;
+    font-weight: 700;
+}
