@@ -20,20 +20,30 @@ export default function Contactmap() {
             ...data,
             [event.target.name]: event.target.value
         });
-        console.log(data)
+        // console.log(data)
 
     }
 
     const SubmitDATA = (e) => {
        if( data.email === ''){
-        toast("Bherwe sab detail dal !");
+        toast("Kindly Fill The Mendatory Fields");
        }
        else{
         e.preventDefault();
         console.log(data)
+        toast("Your Form Has been Submited 🙂");
+        setdata( {
+            name: '',
+            email: '',
+            subject: '',
+            options: '',
+            message: '',
+          })
        }
         
     }
+
+    
   return (
     <Fragment>
       
@@ -50,17 +60,17 @@ export default function Contactmap() {
                         <form > 
                             <div className="form-row">
                                 <div className="form-group col-md-12">
-                                <input name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange= {handlechange} required/>
+                                <input value={data.name} name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange= {handlechange} required/>
                                 </div>
                                 <div className="form-group col-md-12">
-                                <input name="email" type="text" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange= {handlechange}  required/>
+                                <input value={data.email} name="email" type="email" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange= {handlechange}  required/>
                                 </div>
                             </div>
                             <div className="form-group">
-                                <input name="subject" type="text" className="form-control" id="inputAddress" placeholder="Subject" onChange= {handlechange}  required/>
+                                <input value={data.subject} name="subject" type="text" className="form-control" id="inputAddress" placeholder="Subject" onChange= {handlechange}  required/>
                             </div>
                             <div className="form-group col-md-12">
-                                <select name='options' id="inputState" className="form-control"  onChange={handlechange}>
+                                <select value={data.options} name='options' id="inputState" className="form-control"  onChange={handlechange}>
                                     <option defaultValue='Chose'>Choose...</option>
                                     <option value="Web Development">Web Development</option>
                                     <option value="UI/UX Design">UI/UX Design</option>
@@ -70,7 +80,7 @@ export default function Contactmap() {
                                 </select>
                                 </div>
                             <div className="form-group">
-                                <textarea name='message' type="text" className="form-control" id="inputAddress2" placeholder="Your Message" onChange={handlechange} />
+                                <textarea value={data.message} name='message' type="text" className="form-control" id="inputAddress2" placeholder="Your Message" onChange={handlechange} />
                             </div>
                             
                             <button onClick={SubmitDATA}>Send Now</button>

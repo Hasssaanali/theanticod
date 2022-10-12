@@ -969,3 +969,12 @@ form button {
     opacity: 1;
     font-weight: 700;
 }
+.row.jobs h3{
+    text-transform: capitalize !important;
+}
+.row.jobs p{
+    text-transform: capitalize !important;
+}
+.row.jobs a{
+    text-transform: capitalize !important;
+}

@@ -10,11 +10,11 @@ export default function Singlejob() {
   // console.log(key);
 
 
-  const [data, setdata] = useState(
+  const [formData, setdata] = useState(
     {
       name: '',
       email: '',
-      job: '',
+      job: "",
       message: '',
       resume: '',
     }
@@ -22,19 +22,32 @@ export default function Singlejob() {
 
   const handlechange = (event) => {
     setdata({
-      ...data,
+      ...formData,
       [event.target.name]: event.target.value
     });
 
   }
 
   const SubmitDATA = (e) => {
-    if (data.email === '') {
-      toast("Bherwe sab detail dal !");
+    if (formData.email === '') {
+      toast("Kindly Fill the Required Fields");
     }
     else {
       e.preventDefault();
-      console.log(data)
+      toast("Form Has Been Submitted! We will get Back To You 🙂");
+      const jobinput = document.querySelector('#jobinput').value; 
+      const obj = {
+        ...formData,
+        job: jobinput
+      }
+      
+      console.log(obj)
+      setdata( {
+        name: '',
+        email: '',
+        message: '',
+        resume: '',
+      })
     }
 
   }
@@ -95,26 +108,29 @@ export default function Singlejob() {
 
                               <div className='col-sm-6' data-aos="fade-right" data-aos-duration="2000">
                                 <h2>Apply Now</h2>
+
+
                                 <form >
                                   <div className="form-row">
                                     <div className="form-group col-md-12">
-                                      <input name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange={handlechange} required />
+                                      <input value={formData.name} name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange={handlechange} required />
                                     </div>
                                     <div className="form-group col-md-12">
-                                      <input name="email" type="text" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange={handlechange} required />
+                                      <input value={formData.email} name="email" type="text" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange={handlechange} required />
                                     </div>
                                   </div>
                                   <div className="form-group col-md-12">
-                                    <input name="job" type="text" className="form-control" id="inputAddress" placeholder="Career Faculty" value={data.jobtitle} onChange={handlechange} disabled />
+                                    <input name="job"  type="text" className="form-control" id="jobinput" placeholder="Career Faculty" value={data.jobtitle} onChange={handlechange} disabled />
                                   </div>
                                   <div className="form-group">
-                                    <textarea name='message' type="text" className="form-control" id="inputAddress2" placeholder="Your Message" onChange={handlechange} />
+                                    <textarea value={formData.message} name='message' type="text" className="form-control" id="inputAddress2" placeholder="Your Message" onChange={handlechange} />
                                     <div className="form-group resume">
-                                      <input name="resume" type="file" className="form-control" id="file" accept="application/pdf" placeholder="resume" onChange={handlechange} required />
+                                      <input value={formData.resume} name="resume" type="file" className="form-control" id="file" accept="application/pdf" placeholder="resume" onChange={handlechange} required />
                                     </div>
                                   </div>
 
                                   <button onClick={SubmitDATA}>Apply Now</button>
+
                                   <ToastContainer />
 
                                 </form>
