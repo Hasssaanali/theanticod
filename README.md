@@ -1,8 +1,6 @@
-**Hammad Aslam** here i construct a complete web app with **Node**, **React**, **Express**, **MongoDB** &**Redux**.
+**Syed Hassan Ali** here i construct a complete web app with **Node**, **React**, **Express**, **MongoDB** &**Redux**.
 **access for admin panel**
 
-id:- **admin@gmail.com**
-password:- **abcd1234**
 
 **Features in this web app**
 1 cookies session
@@ -24,22 +22,3 @@ password:- **abcd1234**
 17 aggreate rating according to users of products
 18 admin panel
 19 creating changing of category role (from user to admin )
-
-**Variables to run the project**
-.ENV file bannai hai jiska naam **config** rakhna config wale folder me
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
