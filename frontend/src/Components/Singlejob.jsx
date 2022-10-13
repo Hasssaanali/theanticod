@@ -25,15 +25,13 @@ export default function Singlejob() {
       ...formData,
       [event.target.name]: event.target.value
     });
-
   }
 
   const SubmitDATA = (e) => {
-    if (formData.email === '') {
-      toast("Kindly Fill the Required Fields");
-    }
-    else {
-      e.preventDefault();
+    e.preventDefault();
+    const emailregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    if (emailregex.test(formData.email)) {
+
       toast("Form Has Been Submitted! We will get Back To You 🙂");
       const jobinput = document.querySelector('#jobinput').value; 
       const obj = {
@@ -48,6 +46,15 @@ export default function Singlejob() {
         message: '',
         resume: '',
       })
+
+      
+    }
+    else if (formData.email == "") {
+      toast("Invalid E-mail Address")
+  }
+
+    else {
+      toast("Email Field Are Invalid");
     }
 
   }

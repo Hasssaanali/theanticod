@@ -25,52 +25,60 @@ export default function Contactmap() {
     }
 
     const SubmitDATA = (e) => {
-       if( data.email === ''){
-        toast("Kindly Fill The Mendatory Fields");
-       }
-       else{
         e.preventDefault();
-        console.log(data)
-        toast("Your Form Has been Submited 🙂");
-        setdata( {
-            name: '',
-            email: '',
-            subject: '',
-            options: '',
-            message: '',
-          })
-       }
-        
+        const emailregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+        if (emailregex.test(data.email)) {
+            toast("Your Form Has been Submited 🙂");
+
+            console.log(data)
+            setdata({
+                name: '',
+                email: '',
+                subject: '',
+                options: '',
+                message: '',
+            })
+        }
+        else if (data.email == "") {
+            toast("Invalid E-mail Address")
+        }
+        else {
+            toast("Kindly Fill The Mendatory Fields");
+
+
+        }
+
     }
 
-    
-  return (
-    <Fragment>
-      
-        <div className='container contactform'>
-            <div className='row'>
-                <div className='col-sm-6 map' data-aos="fade-right" data-aos-duration="2000">
-               <img src='https://res.cloudinary.com/anticod/image/upload/v1663943335/mapimage_wolkzl.png'/>
-                </div>
 
-                {/* form */}
-                
-                <div className='col-sm-6 myform' data-aos="fade-left" data-aos-duration="2000">
-                    <h2>Feel Free To Contact Us 🙂</h2>
-                        <form > 
+    return (
+        <Fragment>
+
+            <div className='container contactform'>
+                <div className='row'>
+                    <div className='col-sm-6 map' data-aos="fade-right" data-aos-duration="2000">
+                        <img src='https://res.cloudinary.com/anticod/image/upload/v1663943335/mapimage_wolkzl.png' />
+                    </div>
+
+                    {/* form */}
+
+                    <div className='col-sm-6 myform' data-aos="fade-left" data-aos-duration="2000">
+                        <h2>Feel Free To Contact Us 🙂</h2>
+                        <form >
                             <div className="form-row">
                                 <div className="form-group col-md-12">
-                                <input value={data.name} name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange= {handlechange} required/>
+                                    <input value={data.name} name="name" type="text" className="form-control" id="inputEmail4" placeholder="Full Name" onChange={handlechange} required />
                                 </div>
                                 <div className="form-group col-md-12">
-                                <input value={data.email} name="email" type="email" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange= {handlechange}  required/>
+                                    <input value={data.email} name="email" type="email" className="form-control" id="inputPassword4" placeholder="E-mail Address" onChange={handlechange} required />
                                 </div>
                             </div>
                             <div className="form-group">
-                                <input value={data.subject} name="subject" type="text" className="form-control" id="inputAddress" placeholder="Subject" onChange= {handlechange}  required/>
+                                <input value={data.subject} name="subject" type="text" className="form-control" id="inputAddress" placeholder="Subject" onChange={handlechange} required />
                             </div>
                             <div className="form-group col-md-12">
-                                <select value={data.options} name='options' id="inputState" className="form-control"  onChange={handlechange}>
+                                <select value={data.options} name='options' id="inputState" className="form-control" onChange={handlechange}>
                                     <option defaultValue='Chose'>Choose...</option>
                                     <option value="Web Development">Web Development</option>
                                     <option value="UI/UX Design">UI/UX Design</option>
@@ -78,22 +86,22 @@ export default function Contactmap() {
                                     <option value="SEO Optimisation">SEO Optimisation</option>
                                     <option value="Video Animation">Video Animation</option>
                                 </select>
-                                </div>
+                            </div>
                             <div className="form-group">
                                 <textarea value={data.message} name='message' type="text" className="form-control" id="inputAddress2" placeholder="Your Message" onChange={handlechange} />
                             </div>
-                            
+
                             <button onClick={SubmitDATA}>Send Now</button>
-                            <ToastContainer/>
+                            <ToastContainer />
 
                         </form>
+                    </div>
+
+
+
                 </div>
-
-
-
             </div>
-        </div>
-    </Fragment>
-    
-  )
+        </Fragment>
+
+    )
 }
