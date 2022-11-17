@@ -33,7 +33,7 @@ export default function Reviews() {
                                         </div>
                                         <div className="col-sm-12 avatar-review">
                                         <p>{data.text}</p>
-                                        <img src="https://res.cloudinary.com/anticod/image/upload/v1663916556/img/star_repxyd.png" alt="testimonials" className="stars"/>
+                                        <img src="https://hostedsitedemo.com/rent/allimages/star.png" alt="testimonials" className="stars"/>
                                         </div>
                                     </div>
                                 </SwiperSlide>

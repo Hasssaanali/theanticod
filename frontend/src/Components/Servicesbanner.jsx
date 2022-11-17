@@ -22,7 +22,7 @@ export default function Servicesbanner() {
                 </div>
 
                 <div className='col-sm-6 abtimg' data-aos="fade-left"  data-aos-duration="2000">
-                    <img src='https://res.cloudinary.com/anticod/image/upload/v1663916557/img/service_eiejgk.png' alt='image' width="100%"/>
+                    <img src='https://hostedsitedemo.com/rent/allimages/service.png' alt='image' width="100%"/>
                 </div>
             </div>
             <div className='row text-center' data-aos="fade-up"  data-aos-duration="2000">

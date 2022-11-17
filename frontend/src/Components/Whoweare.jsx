@@ -13,7 +13,7 @@ export default function Whoweare() {
                 </div>
 
                 <div className='col-sm-6 abtimg' data-aos="fade-left"  data-aos-duration="2000">
-                    <img src='https://res.cloudinary.com/anticod/image/upload/v1663916528/img/abt_bzaxeh.jpg' alt='image' width="100%"/>
+                    <img src='https://hostedsitedemo.com/rent/allimages/abt.jpg' alt='image' width="100%"/>
                 </div>
             </div>
         </div>

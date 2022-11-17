@@ -39,7 +39,7 @@ export default function Workwithus() {
 {/* Alone Section */}
                     <div className='row aboutsec'>
                         <div className='col-sm-6 abtimg' data-aos="fade-left" data-aos-duration="2000">
-                            <img src='https://res.cloudinary.com/anticod/image/upload/v1663916564/img/team_uxzrdz.jpg' alt='image' width="100%" />
+                            <img src='https://hostedsitedemo.com/rent/allimages/team.jpg' alt='image' width="100%" />
                         </div>
                         <div className='col-sm-6 about' data-aos="fade-right" data-aos-duration="2000">
                             <h2>Alone We Can Do So Little Together We Can Do So Much.</h2>

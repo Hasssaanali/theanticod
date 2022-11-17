@@ -16,11 +16,11 @@ export default function Mainservices() {
         <div className='row'>
         <Tabs data-aos="fade-right" data-aos-duration="2000">
             <TabList>
-            <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916564/img/web_wjbxxt.png' /></Tab>
-            <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916561/img/Graphic_bro0kc.png' /></Tab>
-            <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916564/img/SEO_ocn1ff.png' /></Tab>
-            <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916530/img/Animation_k0f5nl.png' /></Tab>
-            <Tab><img src='https://res.cloudinary.com/anticod/image/upload/v1663916561/img/Digital_duscec.png' /></Tab>
+            <Tab><img src='https://hostedsitedemo.com/rent/allimages/web.png' /></Tab>
+            <Tab><img src='https://hostedsitedemo.com/rent/allimages/Graphic.png' /></Tab>
+            <Tab><img src='https://hostedsitedemo.com/rent/allimages/SEO.png' /></Tab>
+            <Tab><img src='https://hostedsitedemo.com/rent/allimages/Animation.png' /></Tab>
+            <Tab><img src='https://hostedsitedemo.com/rent/allimages/Digital.png' /></Tab>
             </TabList>
             <div className="container">
               <div className="row mobile">
